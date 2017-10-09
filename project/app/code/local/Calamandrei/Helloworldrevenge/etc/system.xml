@@ -26,7 +26,7 @@
                             <source_model>adminhtml/system_config_source_yesno</source_model>
                             <tooltip>Is this module enabled?</tooltip>
                         </enabled>
-                        <messages translate="label comment">
+                        <message translate="label comment">
                             <label>Custom Messages</label>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
@@ -37,7 +37,23 @@
                             <depends>
                                 <enabled>1</enabled>
                             </depends>
-                        </messages>
+                        </message>
+                        <image translate="label">
+                            <label>Load an image</label>
+                            <tooltip>Load an image</tooltip>
+                            <comment>Load an image: JPG, PNG, GIF</comment>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <frontend_type>image</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_image</backend_model>
+                            <upload_dir config="system/filesystem/media" scope_info="1">helloworldrevengeUpload</upload_dir>
+                            <base_url type="media" scope_info="1">helloworldrevengeUpload</base_url>
+                            <depends>
+                                <enabled>1</enabled>
+                            </depends>
+                        </image>
                     </fields>
                 </configuration>
             </groups>

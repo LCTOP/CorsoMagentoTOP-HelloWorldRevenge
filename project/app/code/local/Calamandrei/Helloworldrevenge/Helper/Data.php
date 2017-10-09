@@ -16,7 +16,24 @@
 class Calamandrei_Helloworldrevenge_Helper_Data extends Mage_Core_Helper_Abstract
 {
 
+    /**
+     * getConfig
+     * @param string $config
+     * @return mixed
+     */
+    public function getConfig($config)
+    {
+        return Mage::getStoreConfig('calamandrei_helloworldrevenge/' . $config);
+    }
 
+    /**
+     * isEnabled
+     * @return bool
+     */
+    public function isEnabled()
+    {
+        return $this->getConfig('configuration/enabled');
+    }
 
 }
 

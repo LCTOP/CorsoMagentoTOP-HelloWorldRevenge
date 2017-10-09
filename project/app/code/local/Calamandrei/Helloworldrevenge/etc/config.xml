@@ -22,6 +22,17 @@
             </calamandrei_helloworldrevenge>
         </models>
     </global>
+    <frontend>
+        <routers>
+            <calamandrei_helloworldrevenge>
+                <use>standard</use>
+                <args>
+                    <module>Calamandrei_Helloworldrevenge</module>
+                    <frontName>hellorevenge</frontName>
+                </args>
+            </calamandrei_helloworldrevenge>
+        </routers>
+    </frontend>
     <default>
         <calamandrei_helloworldrevenge>
             <configuration>
