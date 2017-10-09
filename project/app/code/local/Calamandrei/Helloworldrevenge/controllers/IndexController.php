@@ -20,6 +20,10 @@ class Calamandrei_Helloworldrevenge_IndexController extends Mage_Core_Controller
      */
     public function indexAction()
     {
+        echo "isEnabled: " . Mage::getStoreConfig('calamandrei_helloworldrevenge/configuration/enabled');
+        echo "<hr />";
+        echo "Custom Message: " . Mage::getStoreConfig('calamandrei_helloworldrevenge/configuration/message');
+        echo "<hr />";
         echo "<img src='" . Mage::getBaseUrl('media') . 'helloworldrevengeUpload/' . Mage::getStoreConfig('calamandrei_helloworldrevenge/configuration/image') . "' />";
         die();
     }
