@@ -1,3 +1,3 @@
 ##  README.md
 
-Module revenege of HelloWorld module.
+Module revenege of __HelloWorld__ module.

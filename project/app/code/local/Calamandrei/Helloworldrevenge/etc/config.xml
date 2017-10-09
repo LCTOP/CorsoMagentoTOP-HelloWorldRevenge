@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Calamandrei_Helloworldrevenge>
+            <version>0.1.0</version>
+        </Calamandrei_Helloworldrevenge>
+    </modules>
+    <global>
+        <blocks>
+            <calamandrei_helloworldrevenge>
+                <class>Calamandrei_Helloworldrevenge_Block</class>
+            </calamandrei_helloworldrevenge>
+        </blocks>
+        <helpers>
+            <calamandrei_helloworldrevenge>
+                <class>Calamandrei_Helloworldrevenge_Helper</class>
+            </calamandrei_helloworldrevenge>
+        </helpers>
+        <models>
+            <calamandrei_helloworldrevenge>
+                <!--TODO Helper modules-->
+            </calamandrei_helloworldrevenge>
+        </models>
+    </global>
+    <default>
+        <calamandrei_helloworldrevenge>
+            <configuration>
+                <enabled>1</enabled>
+                <message>This is a custom message by the config.xml written by myself</message>
+            </configuration>
+        </calamandrei_helloworldrevenge>
+    </default>
+</config>
