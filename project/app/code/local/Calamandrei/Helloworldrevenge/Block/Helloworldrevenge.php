@@ -42,9 +42,10 @@ class Calamandrei_Helloworldrevenge_Block_Helloworldrevenge extends Mage_Core_Bl
     {
         $helloworldHelper = Mage::helper('calamandrei_helloworldrevenge');
         $image = '<img class="centered-image" src="';
-        $image .= Mage::getBaseUrl('media') . $helloworldHelper::uploadDir . $helloworldHelper->getConfig('configuration/image');
+        $image .= Mage::getBaseUrl('media') . $helloworldHelper->getUploadDir() . $helloworldHelper->getConfig('configuration/image');
         $image .= '" />';
         return $image;
     }
 
 }
+
