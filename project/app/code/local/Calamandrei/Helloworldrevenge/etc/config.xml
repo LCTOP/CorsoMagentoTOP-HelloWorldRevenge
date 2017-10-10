@@ -32,6 +32,22 @@
                 </args>
             </calamandrei_helloworldrevenge>
         </routers>
+        <layout>
+            <updates>
+                <calamandrei_helloworldrevenge>
+                    <file>calamandrei_helloworldrevenge.xml</file>
+                </calamandrei_helloworldrevenge>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <calamandrei_helloworldrevenge>
+                    <files>
+                        <default>Calamandrei_Helloworldrevenge.csv</default>
+                    </files>
+                </calamandrei_helloworldrevenge>
+            </modules>
+        </translate>
     </frontend>
     <default>
         <calamandrei_helloworldrevenge>

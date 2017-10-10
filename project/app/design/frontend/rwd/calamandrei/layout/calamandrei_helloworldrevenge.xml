@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+    <calamandrei_helloworldrevenge_index_index>
+        <reference name="content">
+            <block type="calamandrei_helloworldrevenge/helloworldrevenge" name="helloworldrevenge.content"
+                   template="helloworldrevenge/message.phtml"/>
+        </reference>
+    </calamandrei_helloworldrevenge_index_index>
+</layout>
