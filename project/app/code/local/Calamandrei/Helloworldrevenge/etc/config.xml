@@ -49,6 +49,17 @@
             </modules>
         </translate>
     </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <calamandrei_helloworldrevenge>
+                    <files>
+                        <default>Calamandrei_Helloworldrevenge.csv</default>
+                    </files>
+                </calamandrei_helloworldrevenge>
+            </modules>
+        </translate>
+    </adminhtml>
     <default>
         <calamandrei_helloworldrevenge>
             <configuration>
